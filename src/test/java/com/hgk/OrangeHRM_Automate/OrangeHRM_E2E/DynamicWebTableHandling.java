@@ -31,7 +31,7 @@ public void webTableHandle()
 				//System.out.println(firstColumn.get(i));
 				WebElement ele=driver.findElement(By.xpath("//td[text()='"+browser+"']/following-sibling::td[contains(text(),'%')]"));
 	
-				System.out.println(ele.getText());
+				System.out.println("Text is:"+ele.getText());
 				
 			
 			}
