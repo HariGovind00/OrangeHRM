@@ -22,6 +22,7 @@ public void loginPageTest() throws Exception
 	browser.browser();
 	System.out.println("Welcome to login page test method.");
 	login.loginPage("Admin","admin123");
+	System.out.println("Search page is about to call");
 	page.searchPage("PIM");
 }
 }
