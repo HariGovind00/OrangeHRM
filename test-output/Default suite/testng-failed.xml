@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hgk.OrangeHRM_Automate.OrangeHRM_E2E.TestRunBaseClass">
+      <class name="com.hgk.OrangeHRM_Automate.OrangeHRM_E2E.DynamicWebTableHandling">
         <methods>
-          <include name="loginPageTest"/>
+          <include name="webTableHandle"/>
         </methods>
-      </class> <!-- com.hgk.OrangeHRM_Automate.OrangeHRM_E2E.TestRunBaseClass -->
+      </class> <!-- com.hgk.OrangeHRM_Automate.OrangeHRM_E2E.DynamicWebTableHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
