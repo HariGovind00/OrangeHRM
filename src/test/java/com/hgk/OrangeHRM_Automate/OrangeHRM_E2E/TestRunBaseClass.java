@@ -18,7 +18,7 @@ public class TestRunBaseClass extends Action
 @Test(retryAnalyzer = RetryBeforeFailing.class)
 public void loginPageTest() throws Exception
 {
-	//Welcome to login page.
+	//Welcome to login page and push the code to github.
 	browser.browser();
 	System.out.println("Welcome to login page test method.");
 	login.loginPage("Admin","admin123");
